@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import time
+import torch
 
 from .adapters import run_train_bpe
 from .common import FIXTURES_PATH, gpt2_bytes_to_unicode
